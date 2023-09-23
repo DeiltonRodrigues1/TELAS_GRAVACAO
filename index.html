@@ -3,49 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula01</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>API Advice Slip</title>
 </head>
 <body>
-    <!-- comentários -->
-    Olá
-    <ol type="I">
-        <!--lista ordenada-->
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ol>
-
-    <ul>
-    <!--lista não ordenada-->
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    </ul>
-
-<dl>
-    <!--lista de descrição, aonde <dl> é a lista de descrição <dt> é assunto e <dd> é a descrição-->
-    <dt>HTML</dt>
-    <dd>Hype Text Markup Language</dd>
-<br>
-<br>
-    <dt>CSS</dt>
-    <dd>Cascading Style Sheet</dd>
-</dl>
-
-<progress value="50" max="100">
-<!--Progress mostra o progresso de algum processo-->
-</progress>
-
-<!--as tags <br> pulam as linhas -->
-<br>
-<br>
-<meter value="30" max="100" min="0">
-    <!--Com a tag <meter> podemos ter algo parecido com o progress e podemos indicar quais 
-        valores são considerados altos e baixos com os atributos high e low-->
-</meter>
-
-
-
-
+    <section>
+        <h1>Frases motivacionais do dia</h1>
+        <button id="get-advice">Trocar frase</button>
+        <p id="advice"></p>
+    </section>
+    <script src="./script.js"></script>
 </body>
 </html>
